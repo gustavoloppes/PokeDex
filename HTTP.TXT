@@ -1,0 +1,39 @@
+REQUISICAO HTTP
+
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${IP}/${PATH - CAMINHO DE IDENTIDICACAO DO RECURSO}
+
+IP: https://pokeapi.co
+
+
+-> REQUEST METHOD : GET | POST | PUT | DELETE | PATCH
+
+*GET - BUSCAR DADOS
+offset - sempre de 2 em 2
+podemos buscar por patch '/pokemon/1' ou query string '?type=grass&name=i'
+
+*POST - INSERIR DADOS
+
+*PUT - ATUALIZA DADOS
+
+*DELETE - DELETAR DADOS
+
+-> REQUEST HEADERS -> RESPONSE HEADERS
+    configuracao da API
+
+REQUEST HEADERS
+    content-type: application/json
+REQUEST BODY
+{
+    "name": "Teste"
+}
+
+
+RESPOSTA DO SERVIDOR
+
+STATUS CODE: 200-299/400/404/500 o que aconteceu com a requisao
+
+RESPONSE HEADERS
+
+REPONSE BODY
